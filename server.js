@@ -6,7 +6,8 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-const port = 3000;
+// Set port for Heroku or local port
+const port = process.env.PORT || 3000;
 
 // Routes for the application
 const index = require('./routes/index');
