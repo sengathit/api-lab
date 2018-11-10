@@ -2,7 +2,7 @@
   "name": "api-lab",
   "version": "1.0.0",
   "description": "This is where I test things out",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.1.3",
